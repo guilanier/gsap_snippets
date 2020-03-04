@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-.stagger${1:To}(${2:element}, ${3:0.5}, {${4:vars}, ease: ${5:Power3.easeInOut}}, ${6:0.25})
+gsap.stagger${1:To}(${2:element}, ${3:0.5}, {${4:vars}, ease: '${5:power3.inout}'}, ${6:0.25})
 ]]></content>
 	
 	<tabTrigger>gsap:stagger</tabTrigger>	

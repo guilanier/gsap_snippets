@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-.to(${1:element}, ${2:1}, {${3:vars}, ease: ${4:power3.inout}})
+gsap.to(${1:element}, ${2:1}, {${3:vars}, ease: ${4:power3.inout}})
 ]]></content>
 	
-	<tabTrigger>gsap:to2</tabTrigger>
+	<tabTrigger>gsap:to</tabTrigger>
 	<scope>source.js</scope>
 </snippet>
