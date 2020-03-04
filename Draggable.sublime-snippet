@@ -3,6 +3,6 @@
 Draggable.create(${1:element}, {type: "${2:drag_type}", ${3:vars}});
 ]]></content>
     
-    <tabTrigger>Draggable</tabTrigger>
+    <tabTrigger>gsap:draggable</tabTrigger>
     <scope>source.js</scope>
 </snippet>

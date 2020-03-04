@@ -3,6 +3,6 @@
 .to(${1:element}, ${2:1}, {${3:vars}, ease: ${4:power3.inout}})
 ]]></content>
 	
-	<tabTrigger>to</tabTrigger>
+	<tabTrigger>gsap:to2</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

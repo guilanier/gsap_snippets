@@ -2,6 +2,6 @@
 	<content><![CDATA[
 .from(${1:element}, ${2:1}, {${3:vars}, ease: ${4:Power3.easeInOut}})
 ]]></content>
-	<tabTrigger>from</tabTrigger>
+	<tabTrigger>gsap:from</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

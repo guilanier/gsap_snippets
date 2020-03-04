@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-new Timeline${1:Max}(${2:{options\}})
+new gsap.timeline${1:Max}(${2:{options\}})
 ]]></content>
     
-    <tabTrigger>Timeline</tabTrigger>
+    <tabTrigger>gsap:timeline</tabTrigger>
     <scope>source.js</scope>
 </snippet>

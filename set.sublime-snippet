@@ -3,6 +3,6 @@
 .set(${1:element}, {${2:vars}})
 ]]></content>
 	
-	<tabTrigger>set</tabTrigger>
+	<tabTrigger>gsap:set</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

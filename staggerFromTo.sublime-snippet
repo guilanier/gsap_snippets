@@ -3,7 +3,7 @@
 .staggerFromTo(${1:element}, ${2:0.5}, {${4:fromVars}}, {${5:toVars}}, ${6:0.25})
 ]]></content>
 	
-	<tabTrigger>staggerFromTo</tabTrigger>
+	<tabTrigger>gsap:staggerFromTo</tabTrigger>
 	
 	<scope>source.js</scope>
 </snippet>
