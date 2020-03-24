@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-.staggerFromTo(${1:element}, ${2:0.5}, {${4:fromVars}}, {${5:toVars}}, ${6:0.25})
+gsap.staggerFromTo(${1:element}, ${2:0.5}, {${4:fromVars}}, {${5:toVars}}, ${6:0.25})
 ]]></content>
 	
 	<tabTrigger>gsap:staggerFromTo</tabTrigger>
