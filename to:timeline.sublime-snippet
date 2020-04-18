@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:tl}.to(${2:element}, {duration: ${3:1}, ${4:vars}, ease: "${5:power3.inout}"})
+]]></content>
+	
+	<tabTrigger>gsap:to:timeline</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

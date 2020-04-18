@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-gsap.${2:to}(${3:element}, ${4:1}, {${5:vars}, ease: '${6:power3.inOut}'});
-]]></content>
-	
-	<tabTrigger>tween</tabTrigger>
-	<scope>source.js</scope>
-</snippet>

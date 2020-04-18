@@ -1,6 +1,7 @@
 <snippet>
+<description>gsap stagger previously : <!-- gsap.stagger${1:To}(${2:element}, ${3:0.5}, {${4:vars}, ease: '${5:power3.inOut}'}, ${6:0.25}) --></description>
 	<content><![CDATA[
-gsap.stagger${1:To}(${2:element}, ${3:0.5}, {${4:vars}, ease: '${5:power3.inOut}'}, ${6:0.25})
+gsap.to(${1:element}, {duration: ${2:0.5}, stagger: ${3:0.5}, ${4:vars}, ease: "${5:power3.inOut}"})
 ]]></content>
 	
 	<tabTrigger>gsap:stagger</tabTrigger>	
