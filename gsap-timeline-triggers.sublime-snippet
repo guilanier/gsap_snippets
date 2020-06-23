@@ -1,11 +1,8 @@
 <snippet>
 	<content><![CDATA[
 const triggers = [
-    { startAt: 1, endAt: 2.4, from: 0, to: 0.1, ease: 'power2.inOut' },
+    { ${1:property}: 0, startAt: 1, endAt: 2, from: 0, to: 0.1, ease: 'none' }
 ];
-const tweensObjs = triggers.map((obj, i) => ({
-    ${1:property}: 0
-}));
 
 const tl = (this.tl = new gsap.timeline({
     paused: true,
@@ -17,7 +14,7 @@ const tl = (this.tl = new gsap.timeline({
 triggers.forEach((trigger, i) => {
     const { startAt, endAt, from, to, ease } = trigger;
     tl.fromTo(
-        tweensObjs[i],
+        trigger,
         { ${1:property}: from },
         { ${1:property}: to, duration: ${2:endAt - startAt}, ease },
         startAt
