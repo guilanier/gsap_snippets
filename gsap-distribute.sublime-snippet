@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+gsap.${1:set}(${2:property}, {
+	scale: gsap.utils.distribute({
+		base: 0.5,
+		amount: 2.5,
+		from: 'center',
+		ease: 'power3.out'
+	})
+});
+]]></content>
+
+	<description>https://greensock.com/docs/v3/GSAP/UtilityMethods/distribute()</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gsap:distribute</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

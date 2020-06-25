@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+//selector text (returns the raw elements wrapped in an Array)
+const targets = gsap.utils.toArray(${1:selector}); 
+]]></content>
+
+	<description>https://greensock.com/docs/v3/GSAP/UtilityMethods/toArray()</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gsap:toArray</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
