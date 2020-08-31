@@ -1,8 +1,7 @@
 <snippet>
 	<content><![CDATA[
 gsap.to(${1:array}, { 
-	keyframes: ${1:array}.map((val, i) => ({ [i]: ${2:value}, duration: ${3:dur}, delay: ${4:delay}, ease: '${5:power3.inOut}' })), 
-	// ease: '${5:power3.inOut}'
+	keyframes: ${1:array}.map((val, i) => ({ [i]: ${2:value}, duration: ${3:dur}, delay: ${4:delay}, ease: '${5:power3.inOut}' }))
 });
 ]]></content>
 	<tabTrigger>gsap:keyframes:array</tabTrigger>	

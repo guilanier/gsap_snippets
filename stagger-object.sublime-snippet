@@ -3,11 +3,11 @@
 	<content><![CDATA[
 gsap.to(${1:element}, {duration: ${2:0.5}, 
 	stagger: { // wrap advanced options in an object
-    each: 0.1,
-    from: "center",
-    grid: "auto",
-    ease: "power2.inOut",
-    amount: 1
+        each: 0.1,
+        from: "center",
+        grid: "auto",
+        ease: "power2.inOut",
+        amount: 1
   }, ${4:vars}, ease: "${5:power3.inOut}"})
 ]]></content>
 	
