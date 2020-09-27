@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-gsap.fromTo(${1:element}, ${2:1}, {${4:fromVars}}, {${5:toVars}})
+gsap.fromTo(${2:element}, { ${3:vars}: 0 }, { ${3:vars}: 1, duration: ${4:1}, ease: "${5:power3.inOut}" })$0
 ]]></content>
 	<tabTrigger>gsap:fromTo</tabTrigger>
 	<scope>source.js</scope>

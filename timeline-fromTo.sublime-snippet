@@ -2,7 +2,6 @@
 	<content><![CDATA[
 ${1:tl}.fromTo(${2:element}, { ${3:vars}: 0 }, { ${3:vars}: 1, duration: ${4:1}, ease: "${5:power3.inOut}" }${6:, 0})$0
 ]]></content>
-	
-	<tabTrigger>gsap:fromTo:timeline</tabTrigger>
+	<tabTrigger>gsap:timeline:fromTo</tabTrigger>
 	<scope>source.js</scope>
 </snippet>
