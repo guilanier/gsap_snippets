@@ -1,4 +1,5 @@
  <snippet>
+ 	<description>timeline new</description>
     <content><![CDATA[
 const tl = (this.tl = new gsap.timeline({ ${2:options} }))$0
 ]]></content>

@@ -1,0 +1,16 @@
+<snippet>
+    <description>gsap stagger advanced parameters</description>
+    <content><![CDATA[
+gsap.to(${1:element}, { 
+    duration: ${2:0.5}, 
+    stagger: { // wrap advanced options in an object
+        each: 0.1,
+        from: "center", // start | center | edges | random | end
+        grid: "auto",
+        ease: "power2.inOut",
+        amount: 1 // Repeats immediately, not waiting for the other staggered animations to finish
+}, ${4:vars}, ease: "${5:power3.inOut}"})$0
+]]></content>
+    <tabTrigger>gsap:stagger:advanced</tabTrigger>
+    <scope>source.js</scope>
+</snippet>

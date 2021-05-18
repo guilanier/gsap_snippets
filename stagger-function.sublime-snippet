@@ -1,11 +1,15 @@
 <snippet>
-<description>gsap stagger previously : <!-- gsap.stagger${1:To}(${2:element}, ${3:0.5}, {${4:vars}, ease: '${5:power3.inOut}'}, ${6:0.25}) --></description>
+<description>gsap stagger function based</description>
 	<content><![CDATA[
-gsap.to(${1:element}, {duration: ${2:0.5}, 
-	stagger: function(index, target, list) {
-    // your custom logic here. Return the delay from the start (not between each)
-    return index * 0.1;
-  }, ${4:vars}, ease: "${5:power3.inOut}"})
+gsap.to(${1:element}, {
+	duration: ${2:0.5},
+	${3:prop},
+	ease: "${4:power3.inOut}",
+	stagger: (index, target, list) => {
+	    // your custom logic here. Return the delay from the start (not between each)
+	    return index * 0.1;
+  	}
+});
 ]]></content>
 	
 	<tabTrigger>gsap:stagger-function</tabTrigger>	
