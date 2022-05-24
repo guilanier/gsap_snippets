@@ -4,7 +4,7 @@
 gsap.to(${1:element}, {
 	duration: ${2:0.5},
 	${3:prop},
-	ease: "${4:power3.inOut}",
+	ease: "${4:power3.out}",
 	stagger: (index, target, list) => {
 	    // your custom logic here. Return the delay from the start (not between each)
 	    return index * 0.1;

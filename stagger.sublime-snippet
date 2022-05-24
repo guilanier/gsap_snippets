@@ -1,7 +1,7 @@
 <snippet>
 <description>gsap stagger</description>
 	<content><![CDATA[
-gsap.to(${1:element}, {duration: ${2:0.5}, stagger: ${3:0.5}, ${4:vars}, ease: "${5:power3.inOut}"})
+gsap.to(${1:element}, {duration: ${2:0.5}, stagger: ${3:0.5}, ${4:vars}, ease: "${5:power3.out}"})
 ]]></content>
 	
 	<tabTrigger>gsap:stagger</tabTrigger>	

@@ -4,7 +4,7 @@ gsap.to(${1:element}, {keyframes: [
 	{ ${2:prop}: ${3:value}, duration: ${4:dur} },
 	{ ${2:prop}: ${3:value}, duration: ${4:dur}, delay: 0.5 }, //create a 0.5 second gap
 	{ ${2:prop}: ${3:value}, duration: ${4:dur}, delay: -0.25 } //overlap by 0.25 seconds
-], ease: "power3.inOut"});
+], ease: "power3.out"});
 ]]></content>
 	
 	<tabTrigger>gsap:keyframes</tabTrigger>	

@@ -9,7 +9,9 @@ gsap.to(${1:element}, {
         grid: "auto",
         ease: "power2.inOut",
         amount: 1 // Repeats immediately, not waiting for the other staggered animations to finish
-}, ${4:vars}, ease: "${5:power3.inOut}"})$0
+        onComplete: (obj) => console.log(obj),
+        onCompleteParams: ['${self}'],
+}, ${4:vars}, ease: "${5:power3.out}"})$0
 ]]></content>
     <tabTrigger>gsap:stagger:advanced</tabTrigger>
     <scope>source.js</scope>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-gsap.to(${1:element}, {${2:vars}, duration: ${3:1}, ease: '${4:power3.inOut}'})$0
+gsap.to(${1:element}, {${2:vars}, duration: ${3:1}, ease: '${4:power3.out}'})$0
 ]]></content>
 	
 	<tabTrigger>gsap:to</tabTrigger>
