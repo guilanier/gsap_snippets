@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 const st = ScrollTrigger.create({
-  trigger: ${1:'.my-element',}
+  trigger: ${1:'.my-element'},
   ${2:animation: tl || tween,}
-  start: ${3:'top top',}
-  end: ${4:'bottom bottom',}
+  start: ${3:'top top'},
+  end: ${4:'bottom bottom'},
   scrub: true, // or time (in seconds) to catch up
   onEnter: () => // Start the animation here,
   onLeave: () => // Stop the animation here,

@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-gsap.to({
-  scrollTrigger: ${1:".container",}
-  ${2:x: 500}
-);$0
+gsap.to(${1:element}, {
+  scrollTrigger: ${2:".container"},
+  ${3:x: 500}
+});$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gsap:to:st:simple</tabTrigger>
