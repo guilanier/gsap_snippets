@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+const scroller = ScrollSmoother.create({
+  wrapper: ${1:'.smooth-wrapper',}
+  content: ${2:'.smooth-content',}
+  smooth: 0.5,   // seconds it takes to "catch up" to native scroll position
+  effects: false, // look for data-speed and data-lag attributes on elements and animate accordingly
+});$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gsap:ss:simple</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

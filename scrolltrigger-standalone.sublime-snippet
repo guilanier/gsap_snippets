@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+const st = ScrollTrigger.create({
+  trigger: ${1:'.my-element',}
+  ${2:animation: tl || tween,}
+  start: ${3:'top top',}
+  end: ${4:'bottom bottom',}
+  scrub: true, // or time (in seconds) to catch up
+  onEnter: () => // Start the animation here,
+  onLeave: () => // Stop the animation here,
+  ${5:onUpdate: (trigger) => // update here}
+})$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gsap:st:standalone</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

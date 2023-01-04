@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+gsap.to({
+  // yes, we can add it to an entire timeline!
+  scrollTrigger: {
+    ${1:trigger: ".container",}
+    ${2:pin: true,}   // pin the trigger element while active
+    start: ${3:"top top",} // when the top of the trigger hits the top of the viewport
+    end: ${4:"+=500",} // end after scrolling 500px beyond the start
+    scrub: true, // smooth scrubbing
+    ${5:snap: {
+      snapTo: "labels", // snap to the closest label in the timeline
+      duration: {min: 0.2, max: 3, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+      delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
+      ease: "power1.inOut" // the ease of the snap animation ("power3" by default)
+    }}
+  }
+});$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gsap:to:st:advanced</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
