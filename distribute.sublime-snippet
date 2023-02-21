@@ -11,8 +11,6 @@ gsap.${1:set}(${2:property}, {
 ]]></content>
 
 	<description>https://greensock.com/docs/v3/GSAP/UtilityMethods/distribute()</description>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gsap:distribute</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

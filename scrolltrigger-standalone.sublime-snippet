@@ -6,9 +6,12 @@ const st = ScrollTrigger.create({
   start: ${3:'top top'},
   end: ${4:'bottom bottom'},
   scrub: true, // or time (in seconds) to catch up
-  onEnter: () => // Start the animation here,
+  ${5:onEnter: () => // Start the animation here,
   onLeave: () => // Stop the animation here,
-  ${5:onUpdate: (trigger) => // update here}
+  onToggle: () => // ,
+  onUpdate: (trigger) => // update here,
+  toggleActions: "play none none reset",// 4 distinct toggle places - onEnter, onLeave, onEnterBack, and onLeaveBack,
+}
 })$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

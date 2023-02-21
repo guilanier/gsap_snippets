@@ -1,8 +1,13 @@
 <snippet>
     <content><![CDATA[
-const split = new SplitText(${1:element}, {type:"${2:words,chars,lines}"});
+const ${1:split} = new SplitText(${2:el}, {type:"${3:words,chars,lines}"});
+gsap.to(${1:split}, {
+  duration: 0.8,
+  opacity: 0,
+  stagger: 0.01
+})
 ]]></content>
     
-    <tabTrigger>SplitText</tabTrigger>
+    <tabTrigger>gsap:splittext</tabTrigger>
     <scope>source.js</scope>
 </snippet>

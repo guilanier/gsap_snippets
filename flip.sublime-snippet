@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+const ${1:stateFlip} = Flip.getState(${2:el});
+${3:appendTo.appendChild(el);}
+Flip.from(${1:stateFlip}, { 
+	duration: 1, 
+	ease: 'power3.out', 
+	${4:scale: false},
+	${5:absolute: true},
+}); // || Flip.to
+]]></content>
+	<description>"First-Last-Invert-Play" https://greensock.com/docs/v3/Plugins/Flip</description>
+	<tabTrigger>gsap:flip:simple</tabTrigger>
+	<scope>source.javascript</scope>
+</snippet>

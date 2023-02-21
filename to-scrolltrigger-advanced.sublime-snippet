@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+gsap.to(${1:element}, {
+  ${7:x: 500},
+  scrollTrigger: {
+  	${2:trigger: ".container"},
+	  ${3:start: 'top top'},
+	  ${4:end: 'bottom bottom'},
+  	${5:toggleActions: "play none none reset"},// 4 distinct toggle places - onEnter, onLeave, onEnterBack, and onLeaveBack,
+  	${6:scrub: true}
+  },
+});$0
+]]></content>
+	<tabTrigger>gsap:to:st:advanced</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
