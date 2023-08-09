@@ -11,6 +11,6 @@ gsap.to(${1:element}, {
   },
 });$0
 ]]></content>
-	<tabTrigger>gsap:to:st:advanced</tabTrigger>
+	<tabTrigger>gsap:to:scrollTrigger:advanced</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

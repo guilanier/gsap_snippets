@@ -6,6 +6,9 @@ const st = ScrollTrigger.create({
   start: ${3:'top top'},
   end: ${4:'bottom bottom'},
   scrub: true, // or time (in seconds) to catch up
+  ${6:pin: true, // Boolean | String | Element 
+  pinSpacer: // Element
+  pinSpacing: true,}
   ${5:onEnter: () => // Start the animation here,
   onLeave: () => // Stop the animation here,
   onToggle: () => // ,
@@ -15,7 +18,7 @@ const st = ScrollTrigger.create({
 })$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>gsap:st:standalone</tabTrigger>
+	<tabTrigger>gsap:scrollTrigger:standalone</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
